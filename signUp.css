@@ -1,0 +1,368 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1993px;
+  height: 1191px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  width: 1144px;
+  height: 1047px;
+  top: 69px;
+  left: 385px;
+  font-size: 0px;
+  background: #d9d9d9;
+  z-index: 1;
+  border-radius: 30px;
+}
+.sign-up-1 {
+  display: block;
+  position: relative;
+  height: 39px;
+  margin: 26px 0 0 514px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+}
+.rectangle-2 {
+  position: relative;
+  width: 1065px;
+  height: 87px;
+  margin: 90px 0 0 41px;
+  background: #ffffff;
+  z-index: 8;
+  border-radius: 30px;
+}
+.full-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 29px;
+  left: 64px;
+  color: #d9d9d9;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 20;
+}
+.rectangle-3 {
+  position: relative;
+  width: 1065px;
+  height: 87px;
+  margin: 63px 0 0 41px;
+  background: #ffffff;
+  z-index: 2;
+  border-radius: 30px;
+}
+.phone-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 25px;
+  left: 64px;
+  color: #d9d9d9;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.rectangle-4 {
+  position: relative;
+  width: 1065px;
+  height: 87px;
+  margin: 63px 0 0 41px;
+  background: #ffffff;
+  z-index: 9;
+  border-radius: 30px;
+}
+.password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 21px;
+  left: 66px;
+  color: #d9d9d9;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 22;
+}
+.rectangle-5 {
+  position: relative;
+  width: 1065px;
+  height: 87px;
+  margin: 66px 0 0 41px;
+  background: #ffffff;
+  z-index: 3;
+  border-radius: 30px;
+}
+.confirm-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 24px;
+  left: 66px;
+  color: #d9d9d9;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.rectangle-6 {
+  position: relative;
+  width: 877px;
+  height: 56px;
+  margin: 140px 0 0 155px;
+  cursor: pointer;
+  background: #20793f;
+  border: none;
+  z-index: 5;
+  border-radius: 30px;
+}
+.sign-up-7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 44px;
+  top: 0;
+  left: 390px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.568px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.do-have-account {
+  position: relative;
+  width: 459px;
+  height: 44px;
+  margin: 43px 0 0 364px;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.568px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 6;
+}
+.do-have-account-8 {
+  position: relative;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.568px;
+  text-align: left;
+}
+.login {
+  position: relative;
+  color: #20793f;
+  font-family: Inter, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.568px;
+  text-align: left;
+}
+.full-name-9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 96px;
+  left: 116px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.noun-personal {
+  position: absolute;
+  width: 62px;
+  height: 50px;
+  top: 97px;
+  left: 49px;
+  background: url(./assets/images/fffbd0e5-a0bc-4696-8171-98401c77dddc.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+  overflow: hidden;
+}
+.noun-email {
+  position: absolute;
+  width: 66px;
+  height: 53px;
+  top: 252px;
+  left: 41px;
+  z-index: 14;
+  overflow: hidden;
+}
+.vector {
+  position: relative;
+  width: 52.5px;
+  height: 26.99px;
+  margin: 10.061px 0 0 6.75px;
+  background: url(./assets/images/e36819a4-0650-4a4a-9e93-23d14a0b9aae.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 15;
+}
+.phone-or-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 258px;
+  left: 107px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.noun-password {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+  top: 395px;
+  left: 41px;
+  z-index: 16;
+  overflow: hidden;
+}
+.vector-a {
+  position: relative;
+  width: 26.4px;
+  height: 28.8px;
+  margin: 9.6px 0 0 14.3px;
+  background: url(./assets/images/c7f4dc61-badd-49d0-aaeb-d0ec09204ae5.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 17;
+}
+.password-b {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 402px;
+  left: 100px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.noun-password-c {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+  top: 545px;
+  left: 41px;
+  z-index: 18;
+  overflow: hidden;
+}
+.vector-d {
+  position: relative;
+  width: 26.4px;
+  height: 28.8px;
+  margin: 9.6px 0 0 14.3px;
+  background: url(./assets/images/900d60f0-3d67-43aa-97fb-78976a2fe3ed.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 19;
+}
+.confirm-password-e {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 39px;
+  top: 550px;
+  left: 100px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.727px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
+.chuk-logo {
+  position: absolute;
+  width: 198px;
+  height: 184px;
+  top: 69px;
+  left: 84px;
+  background: url(./assets/images/9d7d9d2299a8d118fcacedfe7a451d50d06af0e4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 25;
+}
