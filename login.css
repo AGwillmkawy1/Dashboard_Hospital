@@ -256,3 +256,6 @@ button {
   background-size: cover;
   z-index: 15;
 }
+.rectangle-4 a{
+  text-decoration: none;
+}

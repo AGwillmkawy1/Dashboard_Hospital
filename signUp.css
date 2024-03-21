@@ -169,6 +169,9 @@ button {
   z-index: 5;
   border-radius: 30px;
 }
+.rectangle-6 a{
+  text-decoration: none;
+}
 .sign-up-7 {
   display: flex;
   align-items: flex-start;
