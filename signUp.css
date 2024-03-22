@@ -369,3 +369,6 @@ button {
   background-size: cover;
   z-index: 25;
 }
+.do-have-account a{
+  text-decoration: none;
+}
