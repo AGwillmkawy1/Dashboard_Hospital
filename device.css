@@ -2220,6 +2220,7 @@ button {
   line-height: 24.205px;
   text-align: left;
   z-index: 28;
+  text-decoration: none;
 }
 .rectangle-79 {
   position: absolute;
@@ -2269,4 +2270,19 @@ button {
   left: 15px;
   z-index: 5;
   overflow: hidden;
+}
+.rectangle-70 a{
+  text-decoration: none;
+}
+.rectangle-72 a{
+  text-decoration: none;
+}
+.rectangle-79 a{
+  text-decoration: none;
+}
+.rectangle-76 a{
+  text-decoration: none;
+}
+.rectangle-74 a{
+  text-decoration: none;
 }
